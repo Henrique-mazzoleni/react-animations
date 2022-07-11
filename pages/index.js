@@ -8,7 +8,7 @@ import styles from "../styles/Home.module.css";
 import { Fragment, useState } from "react";
 
 export default function Home() {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const openModalHandler = () => {
     setShowModal(true);

@@ -1,11 +1,13 @@
 .card {
   position: absolute;
-  inset: 40vh 30vw;
+  top: 30vh;
+  left: 25vw;
+  width: 50vw;
   background-color: #fff;
-  justify-self: center;
   text-align: center;
   padding: 20px;
   z-index: 100;
+  animation: openModal 1s ease-in-out forwards;
 }
 
 .card h2 {
@@ -20,4 +22,19 @@
   font-weight: 700;
   border: 1px solid #005;
   border-radius: 4px;
+}
+
+@keyframes openModal {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
