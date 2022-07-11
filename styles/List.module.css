@@ -1,0 +1,27 @@
+.list {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.list button {
+    margin: 20px;
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list li {
+    border: 1px solid #aaa;
+    width: 150%;
+    margin: 5px;
+    padding: 7px 0;
+}
+
+.list li:hover {
+    background-color: #999;
+    color: #fff;
+}

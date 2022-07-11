@@ -1,0 +1,23 @@
+.card {
+  position: absolute;
+  inset: 40vh 30vw;
+  background-color: #fff;
+  justify-self: center;
+  text-align: center;
+  padding: 20px;
+  z-index: 100;
+}
+
+.card h2 {
+  margin: 20px;
+}
+
+.card button {
+  background-color: #005;
+  color: #ddd;
+  padding: 7px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 1px solid #005;
+  border-radius: 4px;
+}
